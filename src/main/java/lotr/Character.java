@@ -6,7 +6,7 @@ public abstract class Character {
     private int hp;
 
     private int power;
-    boolean isAlive(){
+    public boolean isAlive(){
         return getHp() > 0;
     }
     Character(int hp, int power){
